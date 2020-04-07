@@ -1,5 +1,5 @@
 const { SpringerBook } = require("./index.js");
-const auth = require("./auth");
+const auth = require("./lib/auth");
 const { Builder, By, Key, until } = require("selenium-webdriver");
 
 let testNewSpringerBookFromUrl = async () => {
@@ -22,9 +22,9 @@ let testNewSpringerBookFromUrl = async () => {
 
 let testReadCookies = () => {
   let cookies = auth.readCookiesSync();
-  for (cookie of cookies) {
-    console.log(cookie);
-  }
+  cookies = Array.from(cookies, (e) => `${e.name}=${e.value}`);
+  cookies = cookies.join("; ");
+  console.log(cookies);
 };
 
 let validateCookies = async () => {
@@ -35,8 +35,8 @@ let validateCookies = async () => {
     for (cookie of cookies) {
       await driver.manage().addCookie(cookie);
     }
-    driver.navigate().refresh();
-    await driver.wait(() => false, 10000000);
+    await driver.navigate().refresh();
+    await driver.wait(() => false, 30 * 1000);
   } finally {
     console.log("exit");
     await driver.quit();
@@ -44,4 +44,4 @@ let validateCookies = async () => {
 };
 
 testReadCookies();
-validateCookies().then(console.log).catch(console.error);
+// validateCookies().then(console.log).catch(console.error);
