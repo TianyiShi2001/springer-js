@@ -1,0 +1,25 @@
+{
+  "name": "springer-api",
+  "version": "0.0.1",
+  "description": "Unofficial Springer web API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TianyiShi2001/springer-js.git"
+  },
+  "keywords": [
+    "springer"
+  ],
+  "author": "Tianyi Shi <ShiTianyi2001@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TianyiShi2001/springer-js/issues"
+  },
+  "homepage": "https://github.com/TianyiShi2001/springer-js#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
