@@ -1,0 +1,96 @@
+[
+  {
+    "domain": ".link.springer.com",
+    "expiry": 1617779714,
+    "httpOnly": false,
+    "name": "OptanonConsent",
+    "path": "/",
+    "secure": false,
+    "value": "landingPath=NotLandingPage&datestamp=Tue+Apr+07+2020+15%3A15%3A14+GMT%2B0800+(China+Standard+Time)&version=3.6.19&AwaitingReconsent=false&groups=1%3A1%2C0_110775%3A1%2C2%3A1%2C0_110776%3A1%2C3%3A1%2C0_110777%3A1%2C4%3A1%2C0_110774%3A1%2C0_112699%3A1%2C0_132599%3A1%2C0_132598%3A1%2C0_132601%3A1%2C0_132600%3A1%2C0_132603%3A1%2C0_132602%3A1%2C0_118607%3A1"
+  },
+  {
+    "domain": ".springer.com",
+    "expiry": 1901603676.542028,
+    "httpOnly": true,
+    "name": "idp_marker",
+    "path": "/",
+    "secure": false,
+    "value": "e7beabd1-cf16-45ef-b553-70ab85487f21"
+  },
+  {
+    "domain": ".springer.com",
+    "httpOnly": true,
+    "name": "idp_session_http",
+    "path": "/",
+    "secure": false,
+    "value": "hVERSION_1738f6597-b0aa-4927-be97-991ab2060653"
+  },
+  {
+    "domain": ".springer.com",
+    "httpOnly": true,
+    "name": "sim-inst-token",
+    "path": "/",
+    "secure": true,
+    "value": "1::1586273685609:b31a32d5"
+  },
+  {
+    "domain": ".springer.com",
+    "httpOnly": true,
+    "name": "idp_session",
+    "path": "/",
+    "secure": true,
+    "value": "sVERSION_17590aedc-33e8-4988-8efb-9d6b40e120fe"
+  },
+  {
+    "domain": ".springer.com",
+    "expiry": 1586243736,
+    "httpOnly": false,
+    "name": "_gat",
+    "path": "/",
+    "secure": false,
+    "value": "1"
+  },
+  {
+    "domain": ".springer.com",
+    "expiry": 1649315715,
+    "httpOnly": false,
+    "name": "__gads",
+    "path": "/",
+    "secure": false,
+    "value": "ID=0b8b7709fa95efcb:T=1586243715:S=ALNI_Mb3Jy4J5eM0oN5qXmpcb5n5fDdg6A"
+  },
+  {
+    "domain": ".springer.com",
+    "httpOnly": true,
+    "name": "tabSet",
+    "path": "/",
+    "secure": true,
+    "value": "industries"
+  },
+  {
+    "domain": ".springer.com",
+    "expiry": 1586330114,
+    "httpOnly": false,
+    "name": "_gid",
+    "path": "/",
+    "secure": false,
+    "value": "GA1.2.2053038694.1586243675"
+  },
+  {
+    "domain": ".springer.com",
+    "expiry": 1649315714,
+    "httpOnly": false,
+    "name": "_ga",
+    "path": "/",
+    "secure": false,
+    "value": "GA1.2.103374570.1586243675"
+  },
+  {
+    "domain": ".springer.com",
+    "httpOnly": true,
+    "name": "trackid",
+    "path": "/",
+    "secure": true,
+    "value": "e533fe2a23d4429f98e870331"
+  }
+]
